@@ -1,6 +1,7 @@
-# basic_codes.py
+(ASSIGNMENT 1)
+#Arithmetic calculations using python(assignment 1)
 This code is to calculate the arithmetic calculations of two numbers given by users.
-Task 1: Perform Basic Mathematical Operations
+
 Problem Statement: A Python program that does the following:
 1.  Takes two numbers as input from the user.
 2.  Performs the basic mathematical operations on these two numbers:
@@ -10,8 +11,8 @@ o	Multiplication
 o	Division
 3.  Displays the results of each operation on the screen.
 
+#Personalized_greeting using python:
 
-Task 2: Create a Personalized Greeting
 Problem Statement:A Python program that:
 1.  Takes a user's first name and last name as input.
 2.  Concatenates the first name and last name into a full name.
