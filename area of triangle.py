@@ -15,3 +15,4 @@ a =int(input("enter height of triangle:"))
 b =int(input("enter base of triangle:"))
 area = 0.5* a*b
 print("Area of right angled triangle:", area)
+
