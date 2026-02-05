@@ -30,7 +30,7 @@ elif 50 <= a < 60:
 else:
     print("OOPS!, YOU FAILED. TRY HARD NEXT TIME ")    
 
-    ------------------------------------------------------------------'''
+---------------------------------------------------------------------'''
 
 #### Range 
 '''for i in range(1,11):
@@ -54,10 +54,11 @@ for i in range(a,b+1):
      
 print(f"Sum of numbers from {a} to {b} is {total}")  '''
 
-
+'''
 scores = [10,20,1,22,36,90,0]
 highest = scores[0]
 lowest = scores[0]
+
 for i in scores:
     if highest < i:
         highest = i 
@@ -66,7 +67,32 @@ print(highest)
 for i in scores:
     if lowest > i:
         lowest = i 
-print(lowest)        
+print(lowest)       '''
+
+
+'''num = 1
+while num <= 5:
+    print(num)
+    num=num +1
+'''
+
+correct_pass = "prince"
+
+while True:    
+    
+    passs = str(input("Enter your password: "))
+    if passs == correct_pass:
+        print("Correct password \n logged in.")
+        break
+    else:
+        print("Wrong password , please try again!!!")
+    
+
+         
+
+
+  
+
 
 
 
