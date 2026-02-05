@@ -76,7 +76,7 @@ while num <= 5:
     num=num +1
 '''
 
-correct_pass = "prince"
+'''correct_pass = "prince"
 
 while True:    
     
@@ -85,7 +85,26 @@ while True:
         print("Correct password \n logged in.")
         break
     else:
-        print("Wrong password , please try again!!!")
+        print("Wrong password , please try again!!!")'''
+
+
+'''for i in range(3):
+    for j in range(2):
+        print(f"i={i} j= {j}")'''
+
+#star pattern 
+
+for i in range (1,11):
+    for j in range(1,i+1):
+        print("*" , end=" ")
+    print("")    
+
+
+
+
+
+
+
     
 
          
