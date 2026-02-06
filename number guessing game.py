@@ -18,10 +18,10 @@ while True:
        
         else:
             if guess < correct_guess:
-                hl = "HIGHER"
+                hl = "HIGHER NUMBER"
 
             else:
-                hl = "LOWER"    
+                hl = "LOWER NUMBER"    
             print(f"OOPS YOUR GUESS IS WRONG. TRY {hl}")
         if i == 1:
             print("OOPS YOU ARE OUT OF CHANCES....RETRY AGAIN")
