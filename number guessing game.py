@@ -4,7 +4,7 @@ print("WELCOME TO THE NUMBER GUESSING GAME. WE HAVE A NUMBER THAT NEED TO BE GUE
 print("SO LETS START THE GAME,")
 print("THE NUMBER IS BETWEEN 1 TO 20")
 
-correct_guess = random.randint(1,20)
+correct_guess = 15
 
 while True:
          

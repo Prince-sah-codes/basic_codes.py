@@ -118,7 +118,7 @@ a = int(input("enter a number to check even or odd: "))
 result = e_o(a)
 print(f"the given number is {result}")'''
 
-def sum(a,b):
+'''def sum(a,b):
    add = a+b
    return add
 
@@ -126,4 +126,12 @@ val1 = int(input("Enter first number:"))
 val2 = int(input("Enter second number:"))
 
 result=sum(val1,val2)  
-print(f'Sum of {val1} and {val2} is {result}')
+print(f'Sum of {val1} and {val2} is {result}')/'''
+
+# filter and map 
+
+seq = [1,2,33,6,3,9]
+mapped_Output = map(lambda x: "odd" if x% 2 != 0 else "even", seq)
+mapp2= map(lambda y: y**2, seq)
+print(f"list of odd and even in the given list {seq} is {list(mapped_Output)}")
+print(f"list of squuare of the given numbers in the list {seq} is {list(mapp2)}")

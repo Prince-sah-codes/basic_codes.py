@@ -15,7 +15,7 @@ print(random.choice(fruits))'''
 print(fruits)'''
 
 #####       DICE ROLLING GAME     ######
-print("WELCOME TO THE DICE ROLLING GAME......")
+'''print("WELCOME TO THE DICE ROLLING GAME......")
 
 while True:
     dice = input("PRESS 'ENTER' TO ROLL AND 'q' TO QUIT THE GAME: ")
@@ -27,7 +27,25 @@ while True:
         print(f"YOUR NUMBER IS {roll}")
         
     else:
-        print("INVALID INPUT!!!")
+        print("INVALID INPUT!!!")'''
 
+#builtin module 
+#math , random , datetime, pyttsx3
+
+
+
+
+import math 
+#to calculate square of number 
+'''a = int(input("enter a number: "))
+output = math.sqrt(a)
+print(f"square of given number is {output}")'''
+
+# calculate the area of circle 
+
+'''r = int(input("enter radius of circle in cm: "))
+area = math.pi*r*r
+
+print(f"Area of the circle is {round(area,2)} cm")'''
 
 
