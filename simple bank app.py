@@ -39,7 +39,7 @@ def withdraw():
         print("-----------------------------------------------------------------------------")
         if balance == 0 :
             print("-----------------------------------------------------------------------------")
-            print("YOU ARE OUT OF BALANCE, PLEASE DEPOSITE SOME AMOUNT TO CONTINE BANKING")
+            print("YOU ARE OUT OF BALANCE, PLEASE DEPOSITE SOME AMOUNT TO CONTINE BANKING...")
             print("-----------------------------------------------------------------------------")
 
 

@@ -35,7 +35,7 @@ while True:
 
 
 
-import math 
+#import math 
 #to calculate square of number 
 '''a = int(input("enter a number: "))
 output = math.sqrt(a)
